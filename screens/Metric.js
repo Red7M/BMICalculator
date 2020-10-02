@@ -47,7 +47,7 @@ export default class Metric extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text>Enter your height in centimeters: </Text>
+          <Text>Enter your height in meters: </Text>
           <TextInput
             style={styles.input}
             placeholder="in metres"
